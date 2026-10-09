@@ -1,0 +1,8 @@
+test,expected,actual,pass_fail,evidence
+Manual 1: Placeholder start,With all coordinates pending: No usable stops yet; all 15 records appear under Needs verification; no stop markers.,,,
+Manual 2: Next/Previous and wrapping,After verifying at least 3 stops: Next and Previous select usable stops in order and wrap; count and details match.,,,
+Manual 3: City jumps,Each city button selects its first usable stop; a city without usable stops shows No usable stops for CITY yet and keeps the selection.,,,
+Manual 4: Globe and details,For verified stops: selected marker is gold; camera and displayed name/source/date match the selected stop; empty photos show the no-photo message.,,,
+Manual 5: Keyboard and narrow layout,At a narrow viewport controls remain usable; Tab shows focus and Enter/Space activates navigation and city buttons.,,,
+Manual 6: Missing-data break and repair,On a copy: uncommenting the exercise adds an Unverified Stop warning; restoring the comment removes that warning. Other placeholders remain flagged.,,,
+Automated: tests.html,"Expected with supplied placeholders: 18 PASS lines and FAIL: Every record in places.js is usable. This is a prediction, not a recorded run; all 19 pass only when every active record is usable.",,,
